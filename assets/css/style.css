@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -7,15 +8,16 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 
-     ;
+    ;
 }
 
 body {
-    background: #f2f2f2;
+    background: #000000;
 }
 
+/* navbar */
 nav {
-    background: #171c24;
+    background: #171c24d0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +25,7 @@ nav {
     padding: 0 100px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 nav .logo {
@@ -252,20 +255,118 @@ nav .logo.space {
     }
 }
 
-.content {
+
+
+
+
+/* home page */
+#home {
+
+    line-height: 1.6;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+    opacity: 1;
+}
+
+.slide .content {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    width: 600px;
+    background-color: #c7c7c76c;
+    color: rgb(0, 0, 0);
+    padding: 35px;
+    overflow: hidden;
+}
+
+.slide.current.content {
+    opacity: 1;
+    transform: translateX(600px);
+    transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+.buttons button#prev {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+.buttons button {
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(241, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50px;
+    outline: none;
+
+}
+
+.buttons button:hover {
+    background-color: rgb(255, 0, 0);
+    color: #f8f8f8;
+}
+
+@media(max-width: 500px) {
+    .slide.content {
+        bottom: -300px;
+        left: 0;
+        width: 100%;
+    }
+
+    .slide.current.content {
+        transform: translateY(-300px)
+    }
+}
+
+.slide:first-child {
+    background: url(car3.webp) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(image.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    box-shadow: 0 0 0 1000px inset rgba(0, 0, 0, 0.616);
-    color: white;
-
 }
 
-.content .text {
-    font-size: 30px;
-    font-weight: 700;
+.slide:nth-child(2) {
+    background: url(car.webp) no-repeat center top/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.slide:nth-child(3) {
+    background: url(car2.jpg) no-repeat center top/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide:nth-child(4) {
+    background: url(car1.jpg) no-repeat center top/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

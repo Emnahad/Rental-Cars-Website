@@ -1,48 +1,84 @@
 <!DOCTYPE html>
+<!-- saved from url=(0045)file:///home/firas/Downloads/index%20(1).html -->
 <html lang="en">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <!-- navbar -->
     <header>
         <nav>
             <div class="menu-icon">
-                <span class="fas fa-bars"></span>
+                <span class="fas fa-bars hide"></span>
             </div>
             <div class="logo">
                 <h3>Turbo</h3>
             </div>
-            <div class="nav-items">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our story</a></li>
-                <li><a href="#">Our services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+            <div class="nav-items active">
+                <li><a href="file:///home/firas/Downloads/index%20(1).html#">Home</a></li>
+                <li><a href="file:///home/firas/Downloads/index%20(1).html#">Our story</a></li>
+                <li><a href="file:///home/firas/Downloads/index%20(1).html#">Our services</a></li>
+                <li><a href="file:///home/firas/Downloads/index%20(1).html#">Gallery</a></li>
+                <li><a href="file:///home/firas/Downloads/index%20(1).html#">Contact</a></li>
             </div>
-            <div class="search-icon">
+            <div class="search-icon hide">
                 <span class="fas fa-search"></span>
             </div>
-            <div class="cancel-icon">
+            <div class="cancel-icon show">
                 <span class="fas fa-times"></span>
             </div>
-            <form action="#">
-                <input type="search" class="search-data" placeholder="Search" required>
+            <form action="file:///home/firas/Downloads/index%20(1).html#">
+                <input type="search" class="search-data" placeholder="Search" required="">
                 <button type="submit" class="fas fa-search"></button>
             </form>
         </nav>
     </header>
-    <main>
-        <div class="content">
-            <div class="space text">
-                <h1>hii world</h1>
+    <!--  home page -->
+
+    <section id="home">
+        <div class="slider">
+            <div class="slide current">
+                <div class="content">
+                    <h1>Elictric Car</h1>
+                    <p></p>
+                </div>
             </div>
+
+            <div class="slide">
+                <div class="content">
+                    <h1>Sport car</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>slide2</h1>
+                    <p>lore kcol cnjozn cnozc niczen nezic</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>slide3 hello</h1>
+                    <p>lore kcol cnjozn cnozc niczen nezic</p>
+                </div>
+            </div>
+
         </div>
-    </main>
+        <div class="buttons">
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+    </section>
+    
+
 
 
     <script>
@@ -70,7 +106,52 @@
             searchBtn.classList.add("hide");
             cancelBtn.classList.add("show");
         }
+
+
+
+        const slides = document.getElementsByClassName("slide");
+        console.log(slides)
+        const next = document.querySelector("#next");
+        const prev = document.querySelector("#prev");
+        const auto = true;
+        const intervalTime = 4000;
+        let slideInterval;
+
+        const nextSlide = () => {
+            const current = document.querySelector(".current");
+            current.classList.remove("current");
+            if (current.nextElementSibling) {
+                current.nextElementSibling.classList.add("current");
+            } else {
+                slides[0].classList.add("current");
+            }
+            setTimeout(() => current.classList.remove("current"));
+        };
+        const prevSlide = () => {
+            const current = document.querySelector(".current");
+            current.classList.remove("current");
+            if (current.previousElementSibling) {
+                current.previousElementSibling.classList.add("current");
+            } else {
+                slides[slides.length - 1].classList.add("current");
+            }
+            setTimeout(() => current.classList.remove("current"));
+        };
+
+        next.addEventListener("click", e => {
+            nextSlide()
+        })
+        prev.addEventListener("click", e => {
+            prevSlide()
+        })
+
+        if (auto) {
+            slideInterval = setInterval(nextSlide, intervalTime)
+        }
     </script>
+
+
+
 </body>
 
 </html>
