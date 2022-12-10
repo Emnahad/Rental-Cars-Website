@@ -78,7 +78,7 @@ nav form button {
     padding: 0 15px;
     color: #fff;
     font-size: 17px;
-    background: #c91b2c;
+    background: #82100fc7;
     border: none;
     border-radius: 2px;
     cursor: pointer;
@@ -107,11 +107,11 @@ nav .search-icon {
 }
 
 .logo h3 {
-    color: #c91b2c;
-        
-            margin-top: 11px;
-            font-weight: bold;
-            font-size: 34Px;
+    color: #82100fc7;
+
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 34Px;
 }
 
 @media (max-width: 1245px) {
@@ -228,7 +228,7 @@ nav .search-icon {
 }
 
 nav .logo.space {
-    color: red;
+    color: #82100fc7;
     padding: 0 5px 0 0;
 }
 
@@ -289,13 +289,32 @@ nav .logo.space {
     position: absolute;
     bottom: 70px;
     left: 70px;
-    width: 600px;
+    width: 320px;
     background-color: #c7c7c76c;
     color: rgb(0, 0, 0);
     padding: 35px;
     overflow: hidden;
+    box-shadow: rgb(135 16 16) 0px 1px 2px,
+    rgb(119 17 17 ) 0px 2px 4px,
+    rgb(183 14 14 ) 0px 4px 8px,
+    rgb(56 10 10/83%)0px 8px 16px,
+    rgb(65 14 14 ) 0Px 16px 32px,
+    rgb(96 19 19/86%) 0px 0Px 0px;
+    text-align: center;
+    margin-left: 77px;
+    margin-bottom: 137px;
+    border-radius: 34px;
 }
-
+.our-services{
+    width: 116px;
+    color: black;
+    background-color: #82100fc7;
+    height: 45px;
+    border-radius: 34px;
+    margin-top: 21px;
+    border: none;
+    font-weight: bold;
+}
 .slide.current.content {
     opacity: 1;
     transform: translateX(600px);
@@ -315,8 +334,8 @@ nav .logo.space {
 }
 
 .buttons button {
-    border: 2px solid rgb(255, 0, 0);
-    color: rgb(241, 0, 0);
+    border: 2px solid #82100fc7;
+    color: #82100fc7;
     background-color: transparent;
     cursor: pointer;
     padding: 13px 15px;
@@ -326,7 +345,7 @@ nav .logo.space {
 }
 
 .buttons button:hover {
-    background-color: rgb(255, 0, 0);
+    background-color:#82100fc7;
     color: #f8f8f8;
 }
 
@@ -362,6 +381,7 @@ nav .logo.space {
     justify-content: center;
     align-items: center;
 }
+
 .slide:nth-child(4) {
     background: url(./../img/car4.jpg) no-repeat center top/cover;
     display: flex;
