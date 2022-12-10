@@ -11,10 +11,6 @@
     ;
 }
 
-body {
-    background: #000000;
-}
-
 /* navbar */
 nav {
     background: #171c24d0;
@@ -112,6 +108,10 @@ nav .search-icon {
 
 .logo h3 {
     color: #c91b2c;
+        
+            margin-top: 11px;
+            font-weight: bold;
+            font-size: 34Px;
 }
 
 @media (max-width: 1245px) {
@@ -343,30 +343,28 @@ nav .logo.space {
 }
 
 .slide:first-child {
-    background: url(car3.webp) no-repeat center center/cover;
+    background: url(./../img/car3.jpg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slide:nth-child(2) {
-    background: url(car.webp) no-repeat center top/cover;
+    background: url(./../img/car2.jpg) no-repeat center top/cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .slide:nth-child(3) {
-    background: url(car2.jpg) no-repeat center top/cover;
+    background: url(./../img/car1.jpg) no-repeat center top/cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .slide:nth-child(4) {
-    background: url(car1.jpg) no-repeat center top/cover;
+    background: url(./../img/car4.jpg) no-repeat center top/cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
