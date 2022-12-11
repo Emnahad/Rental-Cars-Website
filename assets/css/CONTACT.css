@@ -7,6 +7,13 @@ body {
     height: 100vh;
 }
 
+.Home .fa {
+    color: white;
+    font-size: 30px;
+    margin: 15px 45%;
+
+}
+
 /* let's start form */
 .form {
     margin-bottom: 60px;
