@@ -16,7 +16,7 @@ body {
     height: 500px;
     padding: 20px;
     width: 320px;
-    box-shadow:rgba(183, 14, 14) 0px 1px 2px, rgba(183, 14, 14) 0px 2px 4px, rgba(183, 14, 14) 0px 4px 8px,  rgba(183, 14, 14,0.825) 0px 8px 16px, rgba(183, 14, 14, 0.83) 0px 16px 32px, rgba(183, 14, 14, 0.858) 0px 0px 0px;
+    box-shadow: rgba(183, 14, 14) 0px 1px 2px, rgba(183, 14, 14) 0px 2px 4px, rgba(183, 14, 14) 0px 4px 8px, rgba(183, 14, 14, 0.825) 0px 8px 16px, rgba(183, 14, 14, 0.83) 0px 16px 32px, rgba(183, 14, 14, 0.858) 0px 0px 0px;
 }
 
 .title {
@@ -125,7 +125,7 @@ body {
 
 
 
-.icon{
+.icon {
     display: inline-block;
     height: 53px;
     width: 53px;
@@ -137,10 +137,14 @@ body {
     cursor: pointer;
 
 }
+
 .icon a {
     color: #fff;
 }
-.icon a:hover{ color: rgba(183, 14, 14, 0.749);}
+
+.icon a:hover {
+    color: rgba(183, 14, 14, 0.749);
+}
 
 .copyright {
     font: 200 14px 'Oswald', sans-serif;
