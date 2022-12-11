@@ -1,7 +1,8 @@
-.body{
+.body {
     margin: 0px;
 
 }
+
 .card {
     height: 90vh;
     width: 700px;
@@ -14,8 +15,8 @@
     right: 28%;
     top: 5vh;
     transition: 0.1s;
-    margin: right 261px; ;
-       
+    margin: right 261px;
+
 }
 
 .card:hover {
