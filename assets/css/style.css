@@ -393,6 +393,7 @@ nav .logo.space {
 /* gallery */
 #gallery {
     background-position: 100%;
+    margin-bottom: 395px;
 }
 
 .title-section {
@@ -544,16 +545,10 @@ nav .logo.space {
     opacity: 1;
 }
 
-.tit {
-    height: 20px;
-    padding-left: 200px;
-    text-shadow: rgb(135 16 16) 0px 1px 2px,
-        rgb(119 17 17) 0px 2px 4px,
-        rgb(183 14 14) 0px 4px 8px,
-        rgb(56 10 10/83%)0px 8px 16px,
-        rgb(65 14 14) 0Px 16px 32px,
-        rgb(96 19 19/86%) 0px 0Px 0px;
-    ;
+hr{
+ 
+    border: 2px solid #900c28 ;
+        margin: 0px 159px;
 }
 
 .lig {
@@ -587,10 +582,7 @@ nav .logo.space {
     background-color: #dc143c;
 }
 
-.container span {
-    color: #dc143c;
 
-}
 
 .container:hover h1:after {
     color: #dc143c;
