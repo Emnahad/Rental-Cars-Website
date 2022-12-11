@@ -11,6 +11,11 @@
 
 }
 
+body {
+    background: black;
+
+}
+
 /* navbar */
 nav {
     background: #171c24d0;
@@ -387,7 +392,6 @@ nav .logo.space {
 
 /* gallery */
 #gallery {
-    background: black;
     background-position: 100%;
 }
 
@@ -418,7 +422,8 @@ nav .logo.space {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 20px 70px 80px;
+    margin: 20px 20px 80px;
+    justify-content: center;
 
 }
 
@@ -427,7 +432,7 @@ nav .logo.space {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 70px 80px;
+    margin: 20px 20px 80px;
 }
 
 .sedan {
@@ -435,7 +440,7 @@ nav .logo.space {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 70px 80px;
+    margin: 20px 20px 80px;
 
 }
 
@@ -444,7 +449,7 @@ nav .logo.space {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 70px 80px;
+    margin: 20px 20px 80px;
 }
 
 
