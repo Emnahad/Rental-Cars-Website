@@ -1,13 +1,10 @@
-* {
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     background: #000;
-    font-family: poppins, sans-serif;
-    color: #fff;
+        font-family: poppins, sans-serif;
+        color: #fff;
 }
 
 #our-services {
@@ -64,7 +61,7 @@ body {
 }
 
 .card {
-    width: ;
+ 
     background: #fff;
     color: #333;
     padding: 40px 12px;
