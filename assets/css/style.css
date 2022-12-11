@@ -308,9 +308,9 @@ nav .logo.space {
 .our-services {
     width: 116px;
     color: black;
-    background-color:#900c28 ;
+    background-color: #900c28;
     height: 45px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: none;
     font-weight: bold;
 }
@@ -558,4 +558,227 @@ nav .logo.space {
 
 .lig {
     color: #9f2525;
+}
+
+/* our services */
+#our-services {
+    padding: 80px 60px;
+    margin-top: 80px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    position: relative;
+    font-weight: 600;
+    color: white;
+}
+
+.container h1:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 3px;
+    background-color: #dc143c;
+}
+
+.container span {
+    color: #dc143c;
+
+}
+
+.container:hover h1:after {
+    color: #dc143c;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+@media(max-width:900px) {
+    .cards2 {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px
+    }
+
+}
+
+.card2 {
+
+    background: #fff;
+    color: #333;
+    padding: 40px 12px;
+    margin: 0 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 3s;
+    position: relative;
+    border-radius: 15px;
+
+}
+
+@media(max-width:900px) {
+    .card {
+        margin: 50px 0;
+
+
+    }
+
+}
+
+.box i {
+    font-size: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.box h2 {
+    font-size: 28px;
+    padding: 15px 0px;
+}
+
+.box p {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #dc143c;
+    padding: 10px 15px;
+    border-radius: 18px;
+    transition: 0.5s;
+    margin: 20px 0px;
+}
+
+.box a:hover {
+    background: transparent;
+    border: 1px solid #333;
+    transform: scale(1.1);
+    background-color: #dc143c;
+}
+
+.card2:hover .box i {
+    background: #dc143c;
+    color: #fff;
+    border-color: #dc143c;
+}
+
+.card2:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+
+.card2:hover:after {
+    transform: rotate(13deg);
+    background-color: #dc143c;
+}
+
+/* PricingPlans */
+
+.pricing-plans {
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(0, 0, 0, 75%);
+    width: 900px;
+    margin: 5% auto;
+}
+
+.single-price {
+    width: 33%;
+    height: 500px;
+    background: #262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto;
+}
+
+.services {
+    margin-top: 10%;
+
+}
+
+.single-price h1 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+
+}
+
+.price h2 {
+    font-size: 14px;
+    margin-top: 35%;
+    color: #fff;
+}
+
+.services h4 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+
+}
+
+.single-price:hover {
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rrgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 30px
+}
+
+.single-price:hover .price {
+    border-color: #fff;
+}
+
+.single-price a {
+    text-decoration: none;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.single-price:hover a {
+    background: black;
+    border-radius: 20px;
 }
