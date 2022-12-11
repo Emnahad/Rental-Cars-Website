@@ -297,7 +297,7 @@ nav .logo.space {
     text-align: center;
     margin-left: 77px;
     margin-bottom: 137px;
-    border-radius: 34px;
+
 }
 
 .our-services {
@@ -305,8 +305,7 @@ nav .logo.space {
     color: black;
     background-color: #82100fc7;
     height: 45px;
-    border-radius: 34px;
-    margin-top: 21px;
+    margin-top: 20px;
     border: none;
     font-weight: bold;
 }
@@ -398,7 +397,7 @@ nav .logo.space {
     font-size: 64PX;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #6c1415;
-        text-shadow: 12px 10px 10px #433f3f;
+
 }
 .title-type {
     height: 20px;
@@ -415,9 +414,8 @@ color: #6c1415;}
 .suv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
-    margin: 20px 0 80px;
+    margin: 20px 70px 80px;
 
 }
 
@@ -426,7 +424,7 @@ color: #6c1415;}
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 0 80px;
+margin: 20px 70px 80px;
 }
 
 .sedan {
@@ -434,7 +432,7 @@ color: #6c1415;}
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 0 80px;
+margin: 20px 70px 80px;
 
 }
 
@@ -443,7 +441,7 @@ color: #6c1415;}
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin: 20px 0 80px;
+margin: 20px 70px 80px;
 }
 
 
@@ -455,6 +453,8 @@ color: #6c1415;}
 
     box-shadow:1px 1px 15px #979393  ;
     border-radius: 35px;
+        margin-left: 26px;
+            margin-right: 49px;
 
 }
 
