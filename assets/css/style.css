@@ -402,7 +402,7 @@ nav .logo.space {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 150vh;
+    height: 160vh;
 }
 
 .suv {
@@ -410,6 +410,7 @@ nav .logo.space {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: 20px 0 80px;
 
 }
 
@@ -440,7 +441,7 @@ nav .logo.space {
 
 
 .card {
-    width: 200px;
+    width: 300px;
     margin: 40px;
     height: 200px;
     background: linear-gradient(to bottom, rgb(148, 148, 148), rgb(39, 35, 35));
@@ -451,9 +452,9 @@ nav .logo.space {
 
 .card__caption {
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    bottom: -488px;
+    bottom: -509px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -467,20 +468,20 @@ nav .logo.space {
 }
 
 .card__thumb {
-    width: 200px;
+    width: 300px;
     height: 200Px;
 }
 
 .card__image {
-    width: 200px;
+    width: 300px;
     height: 200Px;
 }
 
 .card__caption1 {
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    bottom: -874px;
+    bottom: -909px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -495,9 +496,9 @@ nav .logo.space {
 
 .card__caption2 {
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    bottom: -1004px;
+    bottom: -1309px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -512,9 +513,9 @@ nav .logo.space {
 
 .card__caption3 {
     position: absolute;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    bottom: -1253px;
+    bottom: -1708px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -529,7 +530,7 @@ nav .logo.space {
 
 .tit {
     height: 20px;
-    padding-left: 400px;
+    padding-left: 200px;
     text-shadow: rgb(135 16 16) 0px 1px 2px,
         rgb(119 17 17) 0px 2px 4px,
         rgb(183 14 14) 0px 4px 8px,
