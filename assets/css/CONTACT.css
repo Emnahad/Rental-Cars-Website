@@ -23,7 +23,7 @@ body {
     height: 500px;
     padding: 20px;
     width: 320px;
-    box-shadow: rgba(183, 14, 14) 0px 1px 2px, rgba(183, 14, 14) 0px 2px 4px, rgba(183, 14, 14) 0px 4px 8px, rgba(183, 14, 14, 0.825) 0px 8px 16px, rgba(183, 14, 14, 0.83) 0px 16px 32px, rgba(183, 14, 14, 0.858) 0px 0px 0px;
+    box-shadow: #900c28 0px 1px 2px, #900c28 0px 2px 4px, #900c28 0px 4px 8px,#900c28 0px 8px 16px, #900c28 0px 16px 32px, #900c28 0px 0px 0px;
 }
 
 .title {
@@ -101,7 +101,7 @@ body {
 }
 
 .submit {
-    background-color: rgb(182, 14, 14);
+    background-color: #900c28;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
@@ -116,7 +116,7 @@ body {
 }
 
 .submit:hover {
-    background-color: rgb(184, 67, 77);
+    background-color:#900c28;
 }
 
 
@@ -150,7 +150,7 @@ body {
 }
 
 .icon a:hover {
-    color: rgba(183, 14, 14, 0.749);
+    color: #900c29c1;
 }
 
 .copyright {
@@ -161,5 +161,5 @@ body {
 }
 
 hr {
-    border-color: rgba(183, 14, 14);
+    border-color: #900c28;
 }
