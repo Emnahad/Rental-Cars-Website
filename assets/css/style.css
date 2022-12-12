@@ -392,7 +392,7 @@ nav .logo.space {
 
 /* gallery */
 #gallery {
-    background-position: 100%;
+
     margin-bottom: 395px;
 }
 
@@ -416,7 +416,7 @@ nav .logo.space {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 160vh;
+    height: auto;
 }
 
 .suv {
@@ -545,10 +545,10 @@ nav .logo.space {
     opacity: 1;
 }
 
-hr{
- 
-    border: 2px solid #900c28 ;
-        margin: 0px 159px;
+hr {
+
+    border: 2px solid #900c28;
+    margin: 0px 159px;
 }
 
 .lig {
@@ -622,7 +622,7 @@ hr{
 }
 
 @media(max-width:900px) {
-    .card {
+    .card2 {
         margin: 50px 0;
 
 
