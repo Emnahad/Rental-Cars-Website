@@ -568,6 +568,7 @@ padding:64px 79px
     position: relative;
     font-weight: 600;
     color: white;
+    
 }
 
 .container h1:after {
@@ -578,13 +579,13 @@ padding:64px 79px
     transform: translateX(-50%);
     width: 150px;
     height: 3px;
-    background-color: #dc143c;
+    background-color: #900c28;
 }
 
 
 
 .container:hover h1:after {
-    color: #dc143c;
+    color: #900c28;
 }
 
 .cards2 {
@@ -652,7 +653,7 @@ padding:64px 79px
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    background: #dc143c;
+    background: #900c28;
     padding: 10px 15px;
     border-radius: 18px;
     transition: 0.5s;
@@ -663,13 +664,13 @@ padding:64px 79px
     background: transparent;
     border: 1px solid #333;
     transform: scale(1.1);
-    background-color: #dc143c;
+    background-color:#900c28;
 }
 
 .card2:hover .box i {
-    background: #dc143c;
+    background: #900c28;
     color: #fff;
-    border-color: #dc143c;
+    border-color: #900c28;
 }
 
 .card2:after {
@@ -687,7 +688,7 @@ padding:64px 79px
 
 .card2:hover:after {
     transform: rotate(13deg);
-    background-color: #dc143c;
+    background-color:#900c28;
 }
 
 /* PricingPlans */
@@ -714,7 +715,7 @@ padding:64px 79px
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 2px solid #da4357;
+    border: 2px solid#900c28;
     margin: 5% auto;
 }
 
@@ -747,7 +748,7 @@ padding:64px 79px
 }
 
 .single-price:hover {
-    background: #da4357;
+    background:#900c28;
     color: #fff;
     box-shadow: 0 0 15px rrgba(0, 0, 0, 1);
     transform: scale(1.1);
@@ -761,7 +762,7 @@ padding:64px 79px
 
 .single-price a {
     text-decoration: none;
-    background: #da4357;
+    background:#900c28;
     color: #fff;
     padding: 10px 20px;
     display: inline-block;
