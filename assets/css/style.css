@@ -12,7 +12,7 @@
 }
 
 body {
-    background: black;
+    background-color: black;
 
 }
 
@@ -458,7 +458,7 @@ nav .logo.space {
     width: 300px;
     margin: 40px;
     height: 200px;
-    background: black;
+    background: #b6b5b5;
 
     box-shadow: 1px 1px 15px #979393;
     border-radius: 35px;
