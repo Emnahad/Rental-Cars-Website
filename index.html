@@ -277,89 +277,144 @@
                                 <a href="#">Read more</a>
                             </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <hr>
+        </section>
+        <hr>
+
+
+        <footer>
+            <section class="footer1">
+                <div class="logo">
+                    <h1>TURBO</h1>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>about</li>
+                        <li>about</li>
+                        <li> about</li>
+                    </ul>
+
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>about</li>
+                        <li>about</li>
+                        <li>about</li>
+                    </ul>
+
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>about</li>
+                        <li>about</li>
+                        <li>about</li>
+                    </ul>
+
+                </div>
+            </section>
+            <div class="contact-container">
+                <div class="social-media">
+                    <div class="icon">
+                        <a href="" target="_blank" class="contact-icon">
+                            <i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-facebook"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank" class="contact-icon"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" target="_blank" class="contact-icon">
+                            <i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="copyright">&copy; Team5 Sup'Com Junior Entreprise|SJE</div>
+
+            </div>
+
+
+        </footer>
 
 
 
-    </section>
-
-
-    <script>
-        const menuBtn = document.querySelector(".menu-icon span");
-        const searchBtn = document.querySelector(".search-icon");
-        const cancelBtn = document.querySelector(".cancel-icon");
-        const items = document.querySelector(".nav-items");
-        const form = document.querySelector("form");
-        menuBtn.onclick = () => {
-            items.classList.add("active");
-            menuBtn.classList.add("hide");
-            searchBtn.classList.add("hide");
-            cancelBtn.classList.add("show");
-        }
-        cancelBtn.onclick = () => {
-            items.classList.remove("active");
-            menuBtn.classList.remove("hide");
-            searchBtn.classList.remove("hide");
-            cancelBtn.classList.remove("show");
-            form.classList.remove("active");
-            cancelBtn.style.color = "#ff3d00";
-        }
-        searchBtn.onclick = () => {
-            form.classList.add("active");
-            searchBtn.classList.add("hide");
-            cancelBtn.classList.add("show");
-        }
-
-
-
-        const slides = document.getElementsByClassName("slide");
-        console.log(slides)
-        const next = document.querySelector("#next");
-        const prev = document.querySelector("#prev");
-        const auto = true;
-        const intervalTime = 4000;
-        let slideInterval;
-
-        const nextSlide = () => {
-            const current = document.querySelector(".current");
-            current.classList.remove("current");
-            if (current.nextElementSibling) {
-                current.nextElementSibling.classList.add("current");
-            } else {
-                slides[0].classList.add("current");
+        <script>
+            const menuBtn = document.querySelector(".menu-icon span");
+            const searchBtn = document.querySelector(".search-icon");
+            const cancelBtn = document.querySelector(".cancel-icon");
+            const items = document.querySelector(".nav-items");
+            const form = document.querySelector("form");
+            menuBtn.onclick = () => {
+                items.classList.add("active");
+                menuBtn.classList.add("hide");
+                searchBtn.classList.add("hide");
+                cancelBtn.classList.add("show");
             }
-            setTimeout(() => current.classList.remove("current"));
-        };
-        const prevSlide = () => {
-            const current = document.querySelector(".current");
-            current.classList.remove("current");
-            if (current.previousElementSibling) {
-                current.previousElementSibling.classList.add("current");
-            } else {
-                slides[slides.length - 1].classList.add("current");
+            cancelBtn.onclick = () => {
+                items.classList.remove("active");
+                menuBtn.classList.remove("hide");
+                searchBtn.classList.remove("hide");
+                cancelBtn.classList.remove("show");
+                form.classList.remove("active");
+                cancelBtn.style.color = "#ff3d00";
             }
-            setTimeout(() => current.classList.remove("current"));
-        };
+            searchBtn.onclick = () => {
+                form.classList.add("active");
+                searchBtn.classList.add("hide");
+                cancelBtn.classList.add("show");
+            }
 
-        next.addEventListener("click", e => {
-            nextSlide()
-        })
-        prev.addEventListener("click", e => {
-            prevSlide()
-        })
 
-        if (auto) {
-            slideInterval = setInterval(nextSlide, intervalTime)
-        }
-    </script>
-    <script>
-        AOS.init();
-    </script>
+
+            const slides = document.getElementsByClassName("slide");
+            console.log(slides)
+            const next = document.querySelector("#next");
+            const prev = document.querySelector("#prev");
+            const auto = true;
+            const intervalTime = 4000;
+            let slideInterval;
+
+            const nextSlide = () => {
+                const current = document.querySelector(".current");
+                current.classList.remove("current");
+                if (current.nextElementSibling) {
+                    current.nextElementSibling.classList.add("current");
+                } else {
+                    slides[0].classList.add("current");
+                }
+                setTimeout(() => current.classList.remove("current"));
+            };
+            const prevSlide = () => {
+                const current = document.querySelector(".current");
+                current.classList.remove("current");
+                if (current.previousElementSibling) {
+                    current.previousElementSibling.classList.add("current");
+                } else {
+                    slides[slides.length - 1].classList.add("current");
+                }
+                setTimeout(() => current.classList.remove("current"));
+            };
+
+            next.addEventListener("click", e => {
+                nextSlide()
+            })
+            prev.addEventListener("click", e => {
+                prevSlide()
+            })
+
+            if (auto) {
+                slideInterval = setInterval(nextSlide, intervalTime)
+            }
+        </script>
+        <script>
+            AOS.init();
+        </script>
 
 
 
