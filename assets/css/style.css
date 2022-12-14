@@ -391,10 +391,6 @@ nav .logo.space {
 
 
 /* gallery */
-#gallery {
-
-    margin-bottom: 395px;
-}
 
 .title-section {
     text-align: center;
@@ -458,7 +454,7 @@ nav .logo.space {
     width: 300px;
     margin: 40px;
     height: 200px;
-    background: #b6b5b5;
+    background: black;
 
     box-shadow: 1px 1px 15px #979393;
     border-radius: 35px;
@@ -548,7 +544,7 @@ nav .logo.space {
 hr {
 
     border: 2px solid #900c28;
-    margin: 0px 159px;
+    margin: 0px 69px;
 }
 
 .lig {
@@ -560,7 +556,7 @@ hr {
     padding: 64px 79px
 }
 
-.container h1 {
+/* .container h1 {
     text-align: center;
     font-size: 70px;
     margin-top: 40px;
@@ -569,7 +565,7 @@ hr {
     font-weight: 600;
     color: white;
 
-}
+} */
 
 .container h1:after {
     content: '';
