@@ -557,7 +557,7 @@ hr {
 
 /* our services */
 #our-services {
-padding:64px 79px
+    padding: 64px 79px
 }
 
 .container h1 {
@@ -568,7 +568,7 @@ padding:64px 79px
     position: relative;
     font-weight: 600;
     color: white;
-    
+
 }
 
 .container h1:after {
@@ -664,7 +664,7 @@ padding:64px 79px
     background: transparent;
     border: 1px solid #333;
     transform: scale(1.1);
-    background-color:#900c28;
+    background-color: #900c28;
 }
 
 .card2:hover .box i {
@@ -688,89 +688,88 @@ padding:64px 79px
 
 .card2:hover:after {
     transform: rotate(13deg);
-    background-color:#900c28;
+    background-color: #900c28;
 }
 
-/* PricingPlans */
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 
-.pricing-plans {
-    font-family: 'Montserrat', sans-serif;
-    background: rgba(0, 0, 0, 75%);
-    width: 900px;
-    margin: 5% auto;
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
 }
 
-.single-price {
-    width: 33%;
-    height: 500px;
-    background: #262626;
-    float: left;
-    margin-top: 2%;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+.list ul li {
+    list-style: none;
+    color: white;
+}
+
+.list ul {
+    padding: 0px;
+}
+
+
+
+.logo {
+    color: rgb(223, 12, 12);
+    font-size: 1.3rem;
+    padding: 12px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    font-family: Tajawal, Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.social-media {
+    position: relative;
+    font-size: 22px;
     text-align: center;
-    transition: 0.9s;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.price {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 2px solid#900c28;
-    margin: 5% auto;
-}
 
-.services {
-    margin-top: 10%;
 
-}
-
-.single-price h1 {
-    font-size: 18px;
-    color: #fff;
-    line-height: 3;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-
-}
-
-.price h2 {
-    font-size: 14px;
-    margin-top: 35%;
-    color: #fff;
-}
-
-.services h4 {
-    font-size: 14px;
-    font-weight: normal;
-    text-align: center;
-    color: #fff;
-
-}
-
-.single-price:hover {
-    background:#900c28;
-    color: #fff;
-    box-shadow: 0 0 15px rrgba(0, 0, 0, 1);
-    transform: scale(1.1);
-    z-index: 1;
-    border-radius: 30px
-}
-
-.single-price:hover .price {
-    border-color: #fff;
-}
-
-.single-price a {
-    text-decoration: none;
-    background:#900c28;
-    color: #fff;
-    padding: 10px 20px;
+.icon {
     display: inline-block;
-    text-transform: uppercase;
-    font-weight: bold;
+    height: 35px;
+    width: 35px;
+    margin: 15px 10px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+
 }
 
-.single-price:hover a {
-    background: black;
-    border-radius: 20px;
+.icon a {
+    color: #fff;
+}
+
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: rgb(255, 248, 248);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .footer1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+
+    .list {
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
 }
