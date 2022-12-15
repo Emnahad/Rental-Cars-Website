@@ -519,7 +519,7 @@ nav .logo.space {
     color: white;
     padding-top: 40px;
     opacity: 0;
-        border-radius: 35px;
+    border-radius: 35px;
 
 }
 
@@ -559,6 +559,7 @@ hr {
 #our-services {
     padding: 64px 79px
 }
+
 .cards2 {
     display: flex;
     justify-content: space-between;
@@ -684,7 +685,7 @@ hr {
 
 
 .logo {
-    color:#900c28;
+    color: #900c28;
     font-size: 1.3rem;
     padding: 12px;
 }
@@ -695,17 +696,18 @@ footer {
 }
 
 .social-media {
-        display: flex;
-            justify-content: end;
+    display: flex;
+    justify-content: end;
     font-size: 22px;
     text-align: center;
     width: 100%;
     margin-right: 129px;
-     padding: 0;
+    padding: 0;
+    margin-top: 29px;
 }
-
-
-
+.social-media a:hover{
+    color: #900c28;
+}
 .icon {
     display: inline-block;
     height: 35px;
@@ -723,7 +725,7 @@ footer {
     color: #fff;
 }
 
-footer{
+footer {
     font: 200 14px 'Oswald', sans-serif;
     color: rgb(255, 248, 248);
     letter-spacing: 1px;
@@ -758,6 +760,40 @@ width: 13rem;
 .copyright{
     color: #fff;
  margin-top: 2px;
+    background-color: #000;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-container img {
+    width: 13rem;
+    height: 7rem;
+    margin-left: 35px;
+}
+
+.logoo {
+    color: #000;
+    margin-left: 113px;
+    margin-top: 8px;
+}
+
+.identity {
+    display: flex;
+}
+
+.slogon {
+    margin-top: 50px;
+    width: 289px;
+    font-size: 20px;
+    margin-left: -70px;
+    font-weight: 100px;
+}
+
+.copyright {
+    color: #fff;
+    margin-top: 2px;
     background-color: #000;
 }
 
