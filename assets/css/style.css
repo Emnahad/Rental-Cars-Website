@@ -694,12 +694,13 @@ footer {
 }
 
 .social-media {
-    position: relative;
+        display: flex;
+            justify-content: end;
     font-size: 22px;
     text-align: center;
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
+    margin-right: 129px;
+     padding: 0;
 }
 
 
@@ -728,6 +729,25 @@ footer{
     text-align: center;
     background-color: #900c28;
     margin-right: -29px
+}
+.contact-container{
+    display: flex;
+}
+.contact-container img{
+width: 13rem;
+    height: 7rem;
+    margin-left: 35px;
+}
+
+.logoo{
+    color: #000;
+        margin-left: 113px;
+            margin-top: 8px;
+}
+.copyright{
+    color: #fff;
+ margin-top: 2px;
+    background-color: #000;
 }
 
 @media only screen and (max-width:768px) {
