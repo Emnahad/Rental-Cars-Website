@@ -496,7 +496,6 @@ nav .logo.space {
     width: 300px;
     height: 200px;
     bottom: -913px;
-    bottom: -501px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -523,7 +522,7 @@ nav .logo.space {
     opacity: 0;
     border-radius: 35px;
     box-shadow: 1px 1px 15px #979393;
-        border-radius: 35px;
+    
 
 }
 
