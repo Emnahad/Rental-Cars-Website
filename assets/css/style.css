@@ -468,7 +468,46 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -1176px;
+    bottom: -1087px;
+    text-align: center;
+    background-color: #1d1717a6;
+    color: white;
+    padding-top: 40px;
+    opacity: 0;
+    border-radius: 35px;
+
+}
+.card__caption1 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: -1488px;
+    text-align: center;
+    background-color: #1d1717a6;
+    color: white;
+    padding-top: 40px;
+    opacity: 0;
+    border-radius: 35px;
+
+}
+.card__caption2 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: -1888px;
+    text-align: center;
+    background-color: #1d1717a6;
+    color: white;
+    padding-top: 40px;
+    opacity: 0;
+    border-radius: 35px;
+
+}
+.card__caption3 {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    bottom: -2287px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -492,55 +531,17 @@ nav .logo.space {
     height: 200Px;
 }
 
-.card__caption1 {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    bottom: -1577px;
-    text-align: center;
-    background-color: #1d1717a6;
-    color: white;
-    padding-top: 40px;
-    opacity: 0;
-    border-radius: 35px;
-
-}
 
 .card:hover .card__caption1 {
     opacity: 1;
 }
 
-.card__caption2 {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    bottom: -1977px;
-    text-align: center;
-    background-color: #1d1717a6;
-    color: white;
-    padding-top: 40px;
-    opacity: 0;
-    border-radius: 35px;
-
-}
 
 .card:hover .card__caption2 {
     opacity: 1;
 }
 
-.card__caption3 {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    bottom: -2375px;
-    text-align: center;
-    background-color: #1d1717a6;
-    color: white;
-    padding-top: 40px;
-    opacity: 0;
-    border-radius: 35px;
 
-}
 
 .card:hover .card__caption3 {
     opacity: 1;
