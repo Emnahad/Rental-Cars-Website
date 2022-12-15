@@ -73,7 +73,7 @@ nav form .search-data {
     width: 100%;
     height: 100%;
     padding: 0 10px;
-    color:  #9f2525;
+    color: #9f2525;
     font-size: 17px;
     border: none;
     font-weight: 500;
@@ -82,7 +82,7 @@ nav form .search-data {
 
 nav form button {
     padding: 0 15px;
-    color:  #9f2525;
+    color: #9f2525;
     font-size: 17px;
     background: #900c2900;
     border: none;
@@ -477,6 +477,7 @@ nav .logo.space {
     border-radius: 35px;
 
 }
+
 .card__caption1 {
     position: absolute;
     width: 300px;
@@ -490,6 +491,7 @@ nav .logo.space {
     border-radius: 35px;
 
 }
+
 .card__caption2 {
     position: absolute;
     width: 300px;
@@ -503,6 +505,7 @@ nav .logo.space {
     border-radius: 35px;
 
 }
+
 .card__caption3 {
     position: absolute;
     width: 300px;
@@ -674,6 +677,7 @@ hr {
 
 /* footer */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
 .social-media {
     display: flex;
     justify-content: end;
@@ -713,10 +717,11 @@ footer {
     text-align: center;
     margin-right: -29px
 }
+
 .contact-container {
     display: flex;
-        width: 100%;
-            background-color: #900c28;
+    width: 100%;
+    background-color: #900c28;
 }
 
 .contact-container img {
@@ -724,6 +729,7 @@ footer {
     height: 7rem;
     margin-left: 35px;
 }
+
 .identity {
     display: flex;
 }
@@ -741,4 +747,19 @@ footer {
     margin-top: 2px;
     padding-top: 3px;
     background-color: #000;
+}
+
+@media only screen and (max-width:690px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .contact-container img {
+        margin-left: 10px;
+    }
+
 }
