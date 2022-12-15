@@ -390,7 +390,117 @@ nav .logo.space {
     align-items: center;
 }
 
+/* our services */
+#our-services {
+    padding: 64px 79px
+}
+.title-service{
+    color: #900c28;
+    text-align: center;
+    font-size: 64PX;
+    margin-bottom: 48px
+       
+}
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px
+}
 
+@media(max-width:900px) {
+    .cards2 {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px
+    }
+
+}
+
+.card2 {
+
+    background: #fff;
+    color: #333;
+    padding: 40px 12px;
+    margin: 0 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 3s;
+    position: relative;
+    border-radius: 15px;
+
+}
+
+@media(max-width:900px) {
+    .card2 {
+        margin: 50px 0;
+
+
+    }
+
+}
+
+.box i {
+    font-size: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.box h2 {
+    font-size: 28px;
+    padding: 15px 0px;
+}
+
+.box p {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #900c28;
+    padding: 10px 15px;
+    border-radius: 18px;
+    transition: 0.5s;
+    margin: 20px 0px;
+}
+
+.box a:hover {
+    background: transparent;
+    border: 1px solid #333;
+    transform: scale(1.1);
+    background-color: #900c28;
+}
+
+.card2:hover .box i {
+    background: #900c28;
+    color: #fff;
+    border-color: #900c28;
+}
+
+.card2:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+
+.card2:hover:after {
+    transform: rotate(13deg);
+    background-color: #900c28;
+}
 /* gallery */
 
 .title-section {
@@ -556,113 +666,7 @@ hr {
     color: #9f2525;
 }
 
-/* our services */
-#our-services {
-    padding: 64px 79px
-}
 
-.cards2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-
-}
-
-@media(max-width:900px) {
-    .cards2 {
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 30px
-    }
-
-}
-
-.card2 {
-
-    background: #fff;
-    color: #333;
-    padding: 40px 12px;
-    margin: 0 30px;
-    text-align: center;
-    cursor: pointer;
-    transition: 3s;
-    position: relative;
-    border-radius: 15px;
-
-}
-
-@media(max-width:900px) {
-    .card2 {
-        margin: 50px 0;
-
-
-    }
-
-}
-
-.box i {
-    font-size: 35px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    padding: 15px;
-    transition: 0.5s;
-}
-
-.box h2 {
-    font-size: 28px;
-    padding: 15px 0px;
-}
-
-.box p {
-    margin: 10px;
-    margin-bottom: 30px;
-}
-
-.box a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    background: #900c28;
-    padding: 10px 15px;
-    border-radius: 18px;
-    transition: 0.5s;
-    margin: 20px 0px;
-}
-
-.box a:hover {
-    background: transparent;
-    border: 1px solid #333;
-    transform: scale(1.1);
-    background-color: #900c28;
-}
-
-.card2:hover .box i {
-    background: #900c28;
-    color: #fff;
-    border-color: #900c28;
-}
-
-.card2:after {
-    content: '';
-    height: 100%;
-    width: 100%;
-    background: #000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.5s;
-
-}
-
-.card2:hover:after {
-    transform: rotate(13deg);
-    background-color: #900c28;
-}
 
 /* footer */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
