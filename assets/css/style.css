@@ -795,13 +795,14 @@ footer {
     margin-top: 50px;
     width: 289px;
     font-size: 20px;
-    margin-left: -70px;
+    margin-left:-51px;
     font-weight: 100px;
 }
 
 .copyright {
     color: #fff;
     margin-top: 2px;
+    padding-top: 3px;
     background-color: #000;
 }
 
