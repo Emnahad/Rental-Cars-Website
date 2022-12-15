@@ -496,6 +496,7 @@ nav .logo.space {
     width: 300px;
     height: 200px;
     bottom: -913px;
+    bottom: -501px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -514,7 +515,7 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -1309px;
+    bottom: -1302px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -522,6 +523,8 @@ nav .logo.space {
     opacity: 0;
     border-radius: 35px;
     box-shadow: 1px 1px 15px #979393;
+        border-radius: 35px;
+
 }
 
 .card:hover .card__caption2 {
@@ -532,7 +535,7 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -1708px;
+    bottom: -1701px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -561,35 +564,6 @@ hr {
 #our-services {
     padding: 64px 79px
 }
-
-/* .container h1 {
-    text-align: center;
-    font-size: 70px;
-    margin-top: 40px;
-    margin-bottom: 90px;
-    position: relative;
-    font-weight: 600;
-    color: white;
-
-} */
-
-.container h1:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 150px;
-    height: 3px;
-    background-color: #900c28;
-}
-
-
-
-.container:hover h1:after {
-    color: #900c28;
-}
-
 .cards2 {
     display: flex;
     justify-content: space-between;
@@ -715,7 +689,7 @@ hr {
 
 
 .logo {
-    color: rgb(223, 12, 12);
+    color:#900c28;
     font-size: 1.3rem;
     padding: 12px;
 }
@@ -753,11 +727,13 @@ footer {
     color: #fff;
 }
 
-.copyright {
+footer{
     font: 200 14px 'Oswald', sans-serif;
     color: rgb(255, 248, 248);
     letter-spacing: 1px;
     text-align: center;
+    background-color: #900c28;
+    margin-right: -29px
 }
 
 @media only screen and (max-width:768px) {
