@@ -72,7 +72,7 @@ nav form .search-data {
     width: 100%;
     height: 100%;
     padding: 0 10px;
-    color: #fff;
+    color:  #9f2525;
     font-size: 17px;
     border: none;
     font-weight: 500;
@@ -81,17 +81,16 @@ nav form .search-data {
 
 nav form button {
     padding: 0 15px;
-    color: #fff;
+    color:  #9f2525;
     font-size: 17px;
-    background: #900c28;
+    background: #900c2900;
     border: none;
     border-radius: 2px;
     cursor: pointer;
 }
 
-nav form button:hover {
-    background: #9f2525;
-}
+
+
 
 nav .menu-icon,
 nav .cancel-icon,
@@ -100,7 +99,7 @@ nav .search-icon {
     text-align: center;
     margin: 0 50px;
     font-size: 18px;
-    color: #fff;
+    color: #9f2525;
     cursor: pointer;
     display: none;
 }
@@ -670,36 +669,6 @@ hr {
 
 /* footer */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
-
-.footer1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    margin-top: 12px;
-}
-
-.list ul li {
-    list-style: none;
-    color: white;
-}
-
-.list ul {
-    padding: 0px;
-}
-
-
-
-.logo {
-    color: #900c28;
-    font-size: 1.3rem;
-    padding: 12px;
-}
-
-footer {
-    background-color: rgb(0, 0, 0);
-    font-family: Tajawal, Arial, Helvetica, sans-serif;
-}
-
 .social-media {
     display: flex;
     justify-content: end;
@@ -737,12 +706,12 @@ footer {
     color: rgb(255, 248, 248);
     letter-spacing: 1px;
     text-align: center;
-    background-color: #900c28;
     margin-right: -29px
 }
-
 .contact-container {
     display: flex;
+        width: 100%;
+            background-color: #900c28;
 }
 
 .contact-container img {
@@ -750,47 +719,6 @@ footer {
     height: 7rem;
     margin-left: 35px;
 }
-
-.logoo {
-    color: #000;
-    margin-left: 113px;
-    margin-top: 8px;
-}
-
-.identity {
-    display: flex;
-}
-
-.slogon {
-    margin-top: 50px;
-    width: 289px;
-    font-size: 20px;
-    margin-left: -70px;
-    font-weight: 100px;
-}
-
-.copyright {
-    color: #fff;
-    margin-top: 2px;
-    background-color: #000;
-}
-
-.contact-container {
-    display: flex;
-}
-
-.contact-container img {
-    width: 13rem;
-    height: 7rem;
-    margin-left: 35px;
-}
-
-.logoo {
-    color: #000;
-    margin-left: 113px;
-    margin-top: 8px;
-}
-
 .identity {
     display: flex;
 }
@@ -808,20 +736,4 @@ footer {
     margin-top: 2px;
     padding-top: 3px;
     background-color: #000;
-}
-
-@media only screen and (max-width:768px) {
-    .footer1 {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-
-    }
-
-    .list {
-        text-align: center;
-    }
-
-    .logo {
-        text-align: center;
-    }
 }
