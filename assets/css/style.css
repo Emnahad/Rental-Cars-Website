@@ -455,8 +455,6 @@ nav .logo.space {
     margin: 40px;
     height: 200px;
     background: black;
-
-    box-shadow: 1px 1px 15px #979393;
     border-radius: 35px;
     margin-left: 26px;
     margin-right: 49px;
@@ -467,12 +465,14 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -509px;
+    bottom: -513px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
     padding-top: 40px;
     opacity: 0;
+    box-shadow: 1px 1px 15px #979393;
+    border-radius: 35px;
 
 }
 
@@ -488,18 +488,21 @@ nav .logo.space {
 .card__image {
     width: 300px;
     height: 200Px;
+    border-radius: 35px;
 }
 
 .card__caption1 {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -909px;
+    bottom: -913px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
     padding-top: 40px;
     opacity: 0;
+    border-radius: 35px;
+    box-shadow: 1px 1px 15px #979393;
 
 }
 
@@ -517,7 +520,8 @@ nav .logo.space {
     color: white;
     padding-top: 40px;
     opacity: 0;
-
+    border-radius: 35px;
+    box-shadow: 1px 1px 15px #979393;
 }
 
 .card:hover .card__caption2 {
@@ -534,6 +538,8 @@ nav .logo.space {
     color: white;
     padding-top: 40px;
     opacity: 0;
+    border-radius: 35px;
+    box-shadow: 1px 1px 15px #979393;
 
 }
 
