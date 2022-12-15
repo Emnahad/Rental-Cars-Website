@@ -260,8 +260,9 @@ nav .logo.space {
         font-size: 16px;
     }
 }
-
+/* princingplans */
 .pricing-plans {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     background: rgba(0, 0, 0, 75%);
     width: 900px;
@@ -270,7 +271,7 @@ nav .logo.space {
 }
 
 .single-price {
-    width: 33%;
+    width: 33.3%;
     height: 500px;
     background: #262626;
     float: left;
@@ -278,13 +279,14 @@ nav .logo.space {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
     transition: 0.9s;
+    margin-right: 34px;
 }
 
 .price {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 2px solid #da4357;
+    border: 2px solid #900c28;
     margin: 5% auto;
 }
 
@@ -317,7 +319,7 @@ nav .logo.space {
 }
 
 .single-price:hover {
-    background: #da4357;
+    background:#900c28;
     color: #fff;
     box-shadow: 0 0 15px rrgba(0, 0, 0, 1);
     transform: scale(1.1);
@@ -331,7 +333,7 @@ nav .logo.space {
 
 .single-price a {
     text-decoration: none;
-    background: #da4357;
+    background: #900c28;
     color: #fff;
     padding: 10px 20px;
     display: inline-block;

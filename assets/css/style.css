@@ -738,8 +738,8 @@ footer {
 }
 .contact-container img{
 width: 13rem;
-    height: 7rem;
-    margin-left: 35px;
+height: 7rem;
+margin-left: 35px;
 }
 
 .logoo{
@@ -760,7 +760,7 @@ width: 13rem;
 .copyright{
     color: #fff;
  margin-top: 2px;
-    background-color: #000;
+background-color: #000;
 }
 
 .contact-container {
