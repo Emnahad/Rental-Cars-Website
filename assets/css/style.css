@@ -467,12 +467,13 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -509px;
+    bottom: -1176px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
     padding-top: 40px;
     opacity: 0;
+    border-radius: 35px;
 
 }
 
@@ -494,7 +495,7 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -501px;
+    bottom: -1577px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -512,7 +513,7 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -1302px;
+    bottom: -1977px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -530,7 +531,7 @@ nav .logo.space {
     position: absolute;
     width: 300px;
     height: 200px;
-    bottom: -1701px;
+    bottom: -2375px;
     text-align: center;
     background-color: #1d1717a6;
     color: white;
@@ -743,6 +744,16 @@ width: 13rem;
     color: #000;
         margin-left: 113px;
             margin-top: 8px;
+}
+.identity{
+    display: flex;
+}
+.slogon{
+        margin-top: 50px;
+            width: 289px;
+            font-size: 20px;
+            margin-left: -70px;
+            font-weight: 100px;
 }
 .copyright{
     color: #fff;
