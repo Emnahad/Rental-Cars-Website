@@ -274,6 +274,7 @@ nav .logo.space {
     width: 900px;
     margin: 5% auto;
     margin-top: 160px;
+    gap: 34px;
 }
 
 .single-price {
@@ -285,7 +286,6 @@ nav .logo.space {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
     transition: 0.9s;
-    margin-right: 34px;
 }
 
 .price {
@@ -352,4 +352,55 @@ nav .logo.space {
 .single-price:hover a {
     background: black;
     border-radius: 20px;
+}
+
+@media only screen and (max-width:869px) {
+    .single-price {
+        width: 23.3%;
+        gap: 10px
+    }
+
+    .pricing-plans {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .single-price {
+        width: 40%;
+    }
+
+    .pricing-plans {
+        flex-direction: column;
+        align-items: center;
+        margin-left: -89px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .pricing-plans {
+        margin-left: -160px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .pricing-plans {
+        margin-left: -200px;
+    }
+}
+
+@media only screen and (max-width:457px) {
+    .pricing-plans {
+        margin-left: -232px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .pricing-plans {
+        margin-left: -268px;
+    }
+
+    .single-price {
+        width: 30%
+    }
 }
