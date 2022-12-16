@@ -42,7 +42,7 @@ nav .logo {
     font-weight: 600;
     letter-spacing: -1px;
 }
-
+/* navbar items */
 nav .nav-items {
     display: flex;
     flex: 1;
@@ -64,7 +64,7 @@ nav .nav-items li a {
 nav .nav-items li a:hover {
     color: #900c28;
 }
-
+/* search bar  */
 nav form {
     display: flex;
     height: 40px;
@@ -95,10 +95,6 @@ nav form button {
     border-radius: 2px;
     cursor: pointer;
 }
-
-
-
-
 nav .menu-icon,
 nav .cancel-icon,
 nav .search-icon {
@@ -124,7 +120,7 @@ nav .search-icon {
     font-weight: bold;
     font-size: 34Px;
 }
-
+/* responsive navbar  */
 @media (max-width: 1245px) {
     nav {
         padding: 0 50px;
@@ -208,7 +204,7 @@ nav .search-icon {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-    }
+    } 
 
     nav .menu-icon {
         display: block;
@@ -265,24 +261,17 @@ nav .logo.space {
         font-size: 16px;
     }
 }
-
-
-
-
-
 /* home page */
 #home {
 
     line-height: 1.6;
 }
-
 .slider {
     position: relative;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
 }
-
 .slide {
     position: absolute;
     top: 0;
@@ -310,8 +299,7 @@ nav .logo.space {
     margin-bottom: 137px;
 
 }
-
-.our-services {
+.services {
     width: 116px;
     color: black;
     background-color: #900c28;
@@ -588,7 +576,7 @@ hr {
 }
 
 @media(max-width:900px) {
-    .cards2 {
+    .cards {
         display: block;
         justify-content: space-between;
         align-items: center;
@@ -597,7 +585,7 @@ hr {
 
 }
 
-.card2 {
+.card {
 
     background: #fff;
     color: #333;
@@ -612,12 +600,9 @@ hr {
 }
 
 @media(max-width:900px) {
-    .card2 {
+    .card {
         margin: 50px 0;
-
-
     }
-
 }
 
 .box i {
@@ -657,13 +642,13 @@ hr {
     background-color: #900c28;
 }
 
-.card2:hover .box i {
+.card:hover .box i {
     background: #900c28;
     color: #fff;
     border-color: #900c28;
 }
 
-.card2:after {
+.card:after {
     content: '';
     height: 100%;
     width: 100%;
@@ -676,14 +661,20 @@ hr {
 
 }
 
-.card2:hover:after {
+.card:hover:after {
     transform: rotate(13deg);
     background-color: #900c28;
 }
 
 /* footer */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
-
+footer {
+    font: 200 14px 'Oswald', sans-serif;
+    color: rgb(255, 248, 248);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: -29px
+}
 .social-media {
     display: flex;
     justify-content: end;
@@ -715,15 +706,6 @@ hr {
 .icon a {
     color: #fff;
 }
-
-footer {
-    font: 200 14px 'Oswald', sans-serif;
-    color: rgb(255, 248, 248);
-    letter-spacing: 1px;
-    text-align: center;
-    margin-right: -29px
-}
-
 .contact-container {
     display: flex;
     width: 100%;
