@@ -19,14 +19,20 @@
                 <span class="fas fa-bars"></span>
             </div>
             <div class="logo">
-                <h3>TURBO</h3>
+                <a href="../team_5" style="text-decoration:none">
+                    <h3>TURBO</h3>
+                </a>
             </div>
-            <div class="nav-items active">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./ourstory.html">Our story</a></li>
-                <li><a href="./index.html#gallery">Gallery</a></li>
-                <li><a href="./PricingPlans.html">Packs</a></li>
-                <li><a href="./CONTACT.html">Contact</a></li>
+            <div class="nav-items">
+                <li><a href="../team_5" onclick="addActivatedToLink()" class="nav-item-link">Services</a>
+                </li>
+                <li style="border-right:1px solid white;"><a href="../team_5" onclick="addActivatedToLink()"
+                        class="nav-item-link">Gallery</a></li>
+                <li><a href="./story.html" onclick="addActivatedToLink()" class="nav-item-link">Story</a></li>
+                <li><a href="./packs.html" onclick="addActivatedToLink()" class="nav-item-link">Packs</a>
+                </li>
+                <li><a href="./contact.html" onclick="addActivatedToLink()" class="nav-item-link">Contact</a>
+                </li>
 
             </div>
             <div class="search-icon hide">
@@ -92,12 +98,24 @@
 
     </div>
     <script>
+        const navItemLinks = document.getElementsByClassName("nav-item-link");
+        for (let i = 0; i < navItemLinks.length; i++) {
+            const item = navItemLinks[i];
+            item.classList.remove('activated');
+            console.log(item.innerHTML);
+            console.log(loc.toUpperCase());
+            if (item.innerHTML == loc.toUpperCase()) {
+                item.classList.add('activated');
+            }
+        }
+
         const menuBtn = document.querySelector(".menu-icon span");
         const searchBtn = document.querySelector(".search-icon");
         const cancelBtn = document.querySelector(".cancel-icon");
         const items = document.querySelector(".nav-items");
         const form = document.querySelector("form");
         menuBtn.onclick = () => {
+            console.log("hello");
             items.classList.add("active");
             menuBtn.classList.add("hide");
             searchBtn.classList.add("hide");

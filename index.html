@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TURBO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <!-- navbar -->
     <header>
@@ -17,14 +19,20 @@
                 <span class="fas fa-bars"></span>
             </div>
             <div class="logo">
-                <h3>TURBO</h3>
+                <a href="" style="text-decoration:none">
+                    <h3>TURBO</h3>
+                </a>
             </div>
-            <div class="nav-items active">
-                <li><a href="#home">Home</a></li>
-                <li><a href="./ourstory.html">Our story</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="./PricingPlans.html">Packs</a></li>
-                <li><a href="./CONTACT.html">Contact</a></li>
+            <div class="nav-items">
+                <li><a href="#our-services" onclick="addActivatedToLink()" class="nav-item-link">Services</a>
+                </li>
+                <li style="border-right: 1px solid white"><a href="#gallery" onclick="addActivatedToLink()"
+                        class="nav-item-link">Gallery</a></li>
+                <li><a href="./story.html" onclick="addActivatedToLink()" class="nav-item-link">Story</a></li>
+                <li><a href="./packs.html" onclick="addActivatedToLink()" class="nav-item-link">Packs</a>
+                </li>
+                <li><a href="./contact.html" onclick="addActivatedToLink()" class="nav-item-link">Contact</a>
+                </li>
 
             </div>
             <div class="search-icon hide">
@@ -85,8 +93,9 @@
                         <div class="box">
                             <i class="fa-brands fa-sellcast"></i>
                             <h2>selling</h2>
-                            <p>if you're looking for brand-new car, we have a wide selection of high-quality and super-luxurious vehicles to choose
-                            from.</p>
+                            <p>if you're looking for brand-new car, we have a wide selection of high-quality and
+                                super-luxurious vehicles to choose
+                                from.</p>
                             <a href="#">Read more</a>
                         </div>
 
@@ -95,7 +104,8 @@
                         <div class="box">
                             <i class="fa-solid fa-screwdriver-wrench"></i>
                             <h2>Repairing</h2>
-                            <p>we are dedicated to provide top-quality maintenance and repair services for all makes and models of vehicles.</p>
+                            <p>we are dedicated to provide top-quality maintenance and repair services for all makes and
+                                models of vehicles.</p>
                             <a href="#">Read more</a>
                         </div>
                     </div>
@@ -103,8 +113,9 @@
                         <div class="box">
                             <i class="fa-solid fa-retweet"></i>
                             <h2>Modifying</h2>
-                            <p>Whether you want to improve your car's performance, change its appearance, or both, we have the expertise and resources
-                            to make it happen.</p>
+                            <p>Whether you want to improve your car's performance, change its appearance, or both, we
+                                have the expertise and resources
+                                to make it happen.</p>
                             <a href="#">Read more</a>
                         </div>
                     </div>
@@ -122,37 +133,37 @@
                 <div class="card" style="margin-right: 0px;" data-aos="fade-up">
                     <figure class="card__thumb">
                         <img src="./assets/img/voiture2.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption">
+                        <div class="card__caption">
                             <h2 class="card__title">VOLVO Amk 200</h2>
                             <p class="card__snippet"> best suv car</p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/suvcar2.PNG" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption">
+                        <div class="card__caption">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/car5.PNG" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption">
+                        <div class="card__caption">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card">
                     <figure class="card__thumb">
                         <img src="./assets/img/suvcar1.PNG" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption">
+                        <div class="card__caption">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
             </div>
@@ -162,38 +173,38 @@
                     <figure class="card__thumb">
                         <img src="./assets/img/sport1.PNG" alt="Picture by Kyle Cottrell" class="card__image"
                             style="    padding-left: 22px;width: 320px;">
-                        <figcaption class="card__caption1">
+                        <div class="card__caption1">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/sport2.PNG" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption1">
+                        <div class="card__caption1">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/sport3.PNG" alt="Picture by Kyle Cottrell" class="card__image"
                             style="    HEIGHT: 212px;padding-top: 15PX;">
-                        <figcaption class="card__caption1">
+                        <div class="card__caption1">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card">
                     <figure class="card__thumb">
                         <img src="./assets/img/voiture3.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption1">
+                        <div class="card__caption1">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
             </div>
@@ -202,19 +213,19 @@
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/sedan1.PNG" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption2">
+                        <div class="card__caption2">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/sedan2.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption2">
+                        <div class="card__caption2">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
 
@@ -222,19 +233,19 @@
                     <figure class="card__thumb">
                         <img src="./assets/img/sedan3.png" alt="Picture by Kyle Cottrell" class="card__image"
                             style="padding-bottom: 25px;">
-                        <figcaption class="card__caption2">
+                        <div class="card__caption2">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card">
                     <figure class="card__thumb">
                         <img src="./assets/img/sedan4.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption2">
+                        <div class="card__caption2">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
             </div>
@@ -243,37 +254,37 @@
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/conv1.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption3">
+                        <div class="card__caption3">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/conv4.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption3">
+                        <div class="card__caption3">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card" style="margin-right: 0px">
                     <figure class="card__thumb">
                         <img src="./assets/img/conv3.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption3">
+                        <div class="card__caption3">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="card">
                     <figure class="card__thunmb">
                         <img src="./assets/img/conv2.png" alt="Picture by Kyle Cottrell" class="card__image">
-                        <figcaption class="card__caption3">
+                        <div class="card__caption3">
                             <h2 class="card__title">NASA Has Found Hundreds Of Potential New Planets</h2>
                             <p class="card__snippet"></p>
-                        </figcaption>
+                        </div>
                     </figure>
                 </div>
             </div>
@@ -283,7 +294,9 @@
     <footer>
         <div class="contact-container">
             <div class="identity">
-                <img src="./assets/img/logo.png">
+                <a href="">
+                    <img src="./assets/img/logo.png">
+                </a>
                 <h5 class="slogon">Take a car or Bring yours</h5>
             </div>
             <div class="social-media">
@@ -307,10 +320,25 @@
         <div class="copyright">&copy; Team5 Sup'Com Junior Entreprise|SJE</div>
     </footer>
     <script>
+        function addActivatedToLink() {
+            var loc = window.location.hash.slice(1, window.location.hash.length);
+            const items = document.getElementsByClassName("nav-item-link");
+            for (let i = 0; i < items.length; i++) {
+                const item = items[i];
+                console.log(item);
+                item.classList.remove('activated');
+                if (item.innerText == loc) {
+                    console.log("equals");
+                    console.log(item);
+                    item.classList.add('activated');
+                }
+            }
+        }
+
         const menuBtn = document.querySelector(".menu-icon span");
         const searchBtn = document.querySelector(".search-icon");
-        const cancelBtn = document.querySelector(".cancel-icon");
         const items = document.querySelector(".nav-items");
+        const cancelBtn = document.querySelector(".cancel-icon");
         const form = document.querySelector("form");
         menuBtn.onclick = () => {
             items.classList.add("active");
@@ -378,4 +406,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>
