@@ -12,6 +12,12 @@
 
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
+
 body {
     background-color: black;
 
@@ -758,8 +764,18 @@ footer {
         justify-content: center;
     }
 
-    .contact-container img {
-        margin-left: 10px;
+
+}
+
+@media only screen and (max-width:497px) {
+    .identity {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .contact-container img {
+        margin-left: 0;
+    }
+
 
 }

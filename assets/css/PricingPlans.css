@@ -11,6 +11,11 @@
 
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     background-color: black;
 
@@ -260,6 +265,7 @@ nav .logo.space {
         font-size: 16px;
     }
 }
+
 /* princingplans */
 .pricing-plans {
     display: flex;
@@ -316,12 +322,12 @@ nav .logo.space {
     text-align: center;
     color: #fff;
     margin-bottom: 19px;
-        font-weight: 600;
+    font-weight: 600;
 
 }
 
 .single-price:hover {
-    background:#900c28;
+    background: #900c28;
     color: #fff;
     box-shadow: 0 0 15px rrgba(0, 0, 0, 1);
     transform: scale(1.1);
